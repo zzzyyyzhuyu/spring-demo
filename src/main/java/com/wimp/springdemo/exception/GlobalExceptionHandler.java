@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  *  异常处理
  *  CotroolerAdvice方式 处理某一个类的异常
  */
-@ControllerAdvice(assignableTypes = {ExceptionController.class})
-@ResponseBody
+//@ControllerAdvice(assignableTypes = {ExceptionController.class})
+//@ResponseBody
 public class GlobalExceptionHandler {
     ErrorResponse illegalArgumentResponse = new ErrorResponse(new IllegalArgumentException("参数错误!"));
     ErrorResponse resourseNotFoundResponse = new ErrorResponse(new ResourceNotFoundException("Sorry, the resourse not found!"));
