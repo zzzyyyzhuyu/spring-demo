@@ -1,9 +1,8 @@
-package com.wimp.springdemo.filter;
+package com.wimp.springdemo.interceptor;
 
 /**
- * filter 过滤器:
  *
- * filter在servlet包下，基于servlet
+ * Interceptor 拦截器
  *
  * 当你有一堆东西的时候，你只希望选择符合你要求的某一些东西。定义这些要求的工具，就是过滤器。
  *
